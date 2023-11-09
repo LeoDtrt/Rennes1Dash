@@ -1,0 +1,92 @@
+.logo {
+    width:80%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.body {
+    background-color:white;
+    position:fixed;
+    margin-left: 18rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+    width:100%;
+    height:100%;
+}
+
+.radio {
+    width:20%;
+}
+
+.graph {
+    width:60%;
+}
+
+.table{
+    position: static;
+    table-layout: fixed;
+    width: 20%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.kri-box-description {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+.kri-box-control {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    background-color: pink;
+    border-radius: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+.kri-box-selection {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+    background-color:orange;
+    border-radius: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+.kri-box-table {
+    grid-column: 3 / 6;
+    grid-row: 1 / 3;
+    background-color:green;
+    border-radius: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+.kri-box-graph {
+    grid-column: 3 / 6;
+    grid-row: 3 / 5;
+    background-color:blue;
+    border-radius: 30px;
+    padding: 10px 0px 0px 10px;
+}
+
+
+.dropdown{
+    width:20%
+}
